@@ -2,9 +2,12 @@
     box-sizing: border-box;
 }
 
-html {
+html, main {
+    height: 100vh;
     margin: 0;
-    background-color: black;
+    background-color: var(--Slate-300);
+    font-family: "Outfit", sans-serif;
+    text-align: center;
 }
 
 
@@ -20,29 +23,61 @@ html {
 
     /* Typography */
 
-    /* Outfit Bold */
+    /* Outfit Bold - Preset 1 */
+    --outfit-bold-font-weight: bold;
     --outfit-bold-font-size: 1.375rem;
     --outfit-bold-line-height: 120%;
     --outfit-bold-letter-spacing: 0px;
-
-    --Outfit-Bold: 
-        var(--outfit-bold-font-size)
-        var(--outfit-bold-line-height:)
-        var(--outfit-bold-letter-spacing);
     
-    /* Outfit Regular */
+    /* Outfit Regular - Preset 2 */
     --outfit-regular-font-size: 0.9375rem;
     --outfit-regular-line-height: 140%;
     --outfit-regular-letter-spacing: 0.2px;
-
-    
-    --Outfit-Regular: 
-    var(--outfit-regular-font-size)
-    var(--outfit-regular-line-height:)
-    var(--outfit-regular-letter-spacing);
 
     /* Spacing */
     --large-spacing: 2.5rem;
     --medium-spacing: 1.5rem;
     --small-spacing: 1rem;
+}
+
+/* Main Styling */
+
+div > img {
+    height: 18rem;
+    width: 18rem;
+    margin: 1rem 1rem 1.5rem 1rem;
+    border-radius: 10px;
+}
+
+.container {
+    height: 31.1875rem;
+    width: 20rem;
+    margin: 0 auto;
+    background-color: var(--White);
+    border-radius: 10px;
+}
+
+body > main > div > div > h1 {
+    color: var(--Slate-900);
+    margin: 0 0 1rem 0;
+    padding: 0 1rem;
+    font-weight: var(--outfit-bold-font-weight);
+    font-size: var(--outfit-bold-font-size);
+    line-height: var(--outfit-bold-line-height);
+    letter-spacing: var(--outfit-bold-letter-spacing);
+}
+
+body > main > div > div > p {
+    color: var(--Slate-500);
+    margin: 0;
+    padding: 0 1rem;
+    font-size: var(--outfit-regular-font-size);
+    line-height: var(--outfit-regular-line-height);
+    letter-spacing: var(--outfit-regular-letter-spacing);
+}
+
+.text-container {
+    margin: 0 1rem;
+    height: 8.1875rem;
+    width: 18rem;
 }
