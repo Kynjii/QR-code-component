@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    background-color: black;
+}
+
+
+/* STYLE GUIDE */
+:root {
+
+    /* Slate Colors */
+    --Slate-900: #1F314F;
+    --Slate-500: #68778D;
+    --Slate-300: #D5E1EF;
+    --White: #FFFFFF;
+
+
+    /* Typography */
+
+    /* Outfit Bold */
+    --outfit-bold-font-size: 1.375rem;
+    --outfit-bold-line-height: 120%;
+    --outfit-bold-letter-spacing: 0px;
+
+    --Outfit-Bold: 
+        var(--outfit-bold-font-size)
+        var(--outfit-bold-line-height:)
+        var(--outfit-bold-letter-spacing);
+    
+    /* Outfit Regular */
+    --outfit-regular-font-size: 0.9375rem;
+    --outfit-regular-line-height: 140%;
+    --outfit-regular-letter-spacing: 0.2px;
+
+    
+    --Outfit-Regular: 
+    var(--outfit-regular-font-size)
+    var(--outfit-regular-line-height:)
+    var(--outfit-regular-letter-spacing);
+
+    /* Spacing */
+    --large-spacing: 2.5rem;
+    --medium-spacing: 1.5rem;
+    --small-spacing: 1rem;
+}
