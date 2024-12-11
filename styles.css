@@ -62,7 +62,7 @@ div > img {
     width: 20rem;
     margin: 0 auto;
     background-color: var(--White);
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 body > main > div > div > h1 {
